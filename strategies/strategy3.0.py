@@ -1,6 +1,9 @@
+import time
+
 DRY_RUN = True
 
-print(" Dhan System Booted Successfully")
+print(" Dhan Engine Started")
 
-if __name__ == "__main__":
-    print(" Strategy placeholder ready")
+while True:
+    print(" Strategy running... DRY_RUN =", DRY_RUN)
+    time.sleep(10)
